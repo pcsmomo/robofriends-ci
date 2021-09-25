@@ -27,7 +27,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "precommit": "pretty-quick --staged"
+    "precommit": "pretty-quick --staged",
+    "prepare": "husky install"
   },
   "browserslist": {
     "production": [
@@ -42,7 +43,7 @@
     ]
   },
   "devDependencies": {
-    "husky": "^4.3.0",
+    "husky": "^7.0.0",
     "prettier": "^2.4.1",
     "pretty-quick": "^3.1.1"
   }
